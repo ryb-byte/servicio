@@ -1,0 +1,20 @@
+{
+  "name": "cobros-servicios-api",
+  "version": "1.0.0",
+  "description": "API segura para gestión de cobros de servicios",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1"
+  }
+}
